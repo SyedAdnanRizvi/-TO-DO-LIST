@@ -1,0 +1,60 @@
+@import "tailwindcss";
+  
+ 
+form{
+    display: flex;
+    width: 1170;
+    margin: auto;
+    gap: 10px;
+  
+    
+}
+ form input{
+    flex-basis: 50%;
+    margin-left: 10%;
+    height: 30px;
+    
+ }
+ form button{
+   flex-basis: 10%;
+   margin: 0;
+ }
+ .outerdiv{
+   width: 977px;
+   margin: auto;
+   margin-left: 6%;
+ }
+ .outerdiv ul{
+    margin: 0px;
+    margin-top: 50px;
+    padding: 0px;
+    list-style: none;
+ }
+
+ .outerdiv ul li{
+    color: white;
+    padding: 10px;
+    position: relative;
+    text-align: left;
+    background-color: black;
+    font-size: 25px;
+    margin-bottom: 20px;
+ }
+ .outerdiv ul li span{
+    cursor: pointer;
+    right: 20px;
+    position: absolute ;
+ }
+ .completetodo{
+   color: red !important;
+   background-color: yellow !important ;
+   text-decoration: line-through;
+   cursor: pointer;
+ }
+
+ button{
+   margin-left: 72%;
+   padding-left: 30px;
+   padding-right: 30px;
+
+}
